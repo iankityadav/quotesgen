@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quotes Generator</title>
+    <meta name="description" content="Random Quotes Generator to motivate yourself">
+    <meta name="keywords" content="Quotable,random quotes,quotes generator">
+    <link rel="stylesheet" href="style.css">
+    <script src="//cdn.jsdelivr.net/npm/goodshare.js@6/goodshare.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-200">
+    <div id="share"></div>
+    <div class="flex items-center justify-center text-2xl bg-indigo-500 mx-auto">
+        <div class="p-2 font-light text-gray-200"> Quotes Generator</div>
+    </div>
+		<div class="container p-2 lg:p-16 xl:p-20 justify-center items-center mx-auto">
+            <div class="flex items-center justify-center flex-col p-4">
+                <div class="container mx-auto max-w-screen-lg">
+                    <div class="bg-white relative shadow-xl rounded p-4">
+                    
+                    <i class="fa fa-quote-left"></i>
+                    <p id="a" class="px-4 text-2xl text-green-500">Loading...</p>
+                    <p id="b" class="px-4 text-purple-600"></p>		
+                    <div class=""><i class="fa fa-quote-right absolute right-0 bottom-0 m-4"></i></div>
+                    
+                    </div>
+                </div>
+            <div class="grid lg:flex xl:flex grid-cols-2 col-gap-16 py-4">
+            <div class="flex p-2">
+                <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fiankityadav.github.io%2Fquotesgen&quote=Random%20Quotes%20Generator" title="Share on Facebook" target="_blank">
+                    <i class="fa shadow-xl fa-facebook text-white mx-2 px-3 py-1 rounded-full bg-blue-700"></i>
+                </a>
+                <a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fiankityadav.github.io%2Fquotesgen&text=Random%20Quotes%20Generator:%20http%3A%2F%2Fiankityadav.github.io%2F" target="_blank" title="Tweet">
+                    <i class="fa fa-twitter shadow-xl text-white px-2 py-1 mx-2 bg-blue-500 rounded-full"></i>
+                </a>
+            </div>
+                <button class="border-2 bg-red-200 font-semibold focus:outline-none hover:shadow-xl hover:bg-red-400 hover:text-red-100 border-red-300 rounded text-gray-700 shadow-lg p-2">
+                    New Quote
+                </button>
+            </div>
+        </div>
+        <a class="me" href="https://github.com/iankityadav" target="_blank"></a>
+        </div>
+
+        <footer class="bg-gray-400 bottom-0 fixed w-screen">
+            <div class="flex justify-center text-indigo-600 font-light py-1 mx-auto">
+                Made by -&nbsp; <a href="https://github.com/iankityadav"> Ankit Yadav</a>
+            </div>
+        </footer>
+		<script src="main.js">
+	        
+	    </script>
+</body>
+</html>
