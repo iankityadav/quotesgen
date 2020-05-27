@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono&display=swap');
+
+#a{
+    font-family:"Fira Mono",monospace;
+}
+
+i{
+    transform:scale(1.2);
+    color:gray;
+}
+.me{
+    background: url("https://api.sololearn.com/Uploads/Avatars/14891719.jpg")no-repeat center / contain;
+    width: 60px;
+    height: 60px;
+    bottom: 35px;
+    right: 16px;
+    display: block;
+    position: fixed;
+    z-index: 9999;
+    border-radius: 50%;
+    animation: me 2s linear infinite alternate
+}
+
+@keyframes me{
+    from{
+        transform: translateY(-7px)
+    }
+
+    to{
+        transform: translateY(7px)
+    }
+}
